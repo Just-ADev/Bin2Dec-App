@@ -1,0 +1,173 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: calc(16px + (26 - 16) * ((100vw - 768px) / (1600 - 768)));
+}
+
+.container {
+  width: 100vw;
+  height: 100vh;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: #222831;
+  font-family: monospace;
+  color: #eeeeee;
+}
+
+.converter {
+  width: 120rem;
+  height: 80rem;
+  border-radius: 4rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  border: 1rem solid #00adb5;
+  background: #393e46;
+
+  padding: 2rem;
+  padding-bottom: 0rem;
+}
+
+.binary {
+  flex: 1;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.binary__digits {
+  display: flex;
+  gap: 3rem;
+}
+
+.binary__digit {
+  background: #00adb5;
+  width: 10rem;
+  height: 10rem;
+  font-size: 6rem;
+  border-radius: 1rem;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  cursor: pointer;
+
+  transition: all 0.3s ease;
+}
+
+.binary__digit:hover {
+  background: #007b81;
+}
+
+.binary__information {
+  padding: 2rem;
+  font-size: 6rem;
+}
+
+.binary__number {
+  padding: 2rem;
+  background: #00adb5;
+  border-radius: 1rem;
+  border: none;
+  width: 100%;
+  font-size: 6rem;
+  color: #eeeeee;
+
+  letter-spacing: 1rem;
+}
+
+.binary__number::placeholder {
+  color: #eeeeee;
+}
+
+.binary__number:focus {
+  outline: none;
+}
+
+.decimal {
+  min-width: 40rem;
+
+  border-top-left-radius: 2rem;
+  border-top-right-radius: 2rem;
+
+  background: #00adb5;
+}
+
+.decimal__number {
+  font-size: 6rem;
+  text-align: center;
+  padding: 2rem;
+
+  letter-spacing: 1rem;
+}
+
+@media screen and (max-width: 80em) {
+  html {
+    font-size: 55%;
+  }
+}
+
+@media screen and (max-width: 70em) {
+  html {
+    font-size: 50%;
+  }
+}
+
+@media screen and (max-width: 65em) {
+  html {
+    font-size: 45%;
+  }
+}
+
+@media screen and (max-width: 60em) {
+  html {
+    font-size: 40%;
+  }
+}
+
+@media screen and (max-width: 55em) {
+  html {
+    font-size: 35%;
+  }
+}
+
+@media screen and (max-width: 50em) {
+  html {
+    font-size: 30%;
+  }
+}
+
+@media screen and (max-width: 45em) {
+  html {
+    font-size: 25%;
+  }
+}
+
+@media screen and (max-width: 40em) {
+  html {
+    font-size: 20%;
+  }
+}
+
+@media screen and (max-width: 35em) {
+  html {
+    font-size: 15%;
+  }
+}
