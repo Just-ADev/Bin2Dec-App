@@ -8,10 +8,6 @@ html {
   font-size: 62.5%;
 }
 
-body {
-  font-size: calc(16px + (26 - 16) * ((100vw - 768px) / (1600 - 768)));
-}
-
 .container {
   width: 100vw;
   height: 100vh;
@@ -23,6 +19,11 @@ body {
 
   background: #222831;
   font-family: monospace;
+  color: #eeeeee;
+}
+
+.title {
+  font-size: 5rem;
   color: #eeeeee;
 }
 
