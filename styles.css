@@ -17,7 +17,8 @@ body {
   height: 100vh;
 
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-evenly;
   align-items: center;
 
   background: #222831;
@@ -27,7 +28,7 @@ body {
 
 .converter {
   width: 120rem;
-  height: 80rem;
+  height: 70rem;
   border-radius: 4rem;
 
   display: flex;
@@ -79,6 +80,8 @@ body {
 .binary__information {
   padding: 2rem;
   font-size: 6rem;
+  letter-spacing: 0.5rem;
+  word-spacing: 2rem;
 }
 
 .binary__number {
