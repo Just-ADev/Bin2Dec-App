@@ -21,3 +21,6 @@ Features:
     - User can enter a variable number of binary digits
 
 https://en.wikipedia.org/wiki/Binary_number
+
+TODO:
+    - refactor
